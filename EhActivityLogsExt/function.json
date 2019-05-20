@@ -1,0 +1,16 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-1.0.0.0",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "connection": "hubConnection",
+      "consumerGroup": "%consumer-group-activity-log%",
+      "path": "%input-hub-name-activity-log%",
+      "name": "messages"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "..\\bin\\AzureFunctionForSplunk.dll",
+  "entryPoint": "AzureFunctionForSplunk.EhActivityLogsExt.Run"
+}

@@ -1,0 +1,7 @@
+EhAADSignInLogsExt\function.json
+EhActivityLogsExt\function.json
+EhDiagnosticLogsExt\function.json
+EhLadTelemetryExt\function.json
+EhMetricsExt\function.json
+EhWadTelemetryExt\function.json
+FaultProcessor\function.json

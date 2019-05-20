@@ -1,0 +1,16 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-1.0.0.0",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "connection": "hubConnection",
+      "consumerGroup": "%consumer-group-lad%",
+      "path": "%input-hub-name-lad%",
+      "name": "messages"
+    }
+  ],
+  "disabled": true,
+  "scriptFile": "..\\bin\\AzureFunctionForSplunk.dll",
+  "entryPoint": "AzureFunctionForSplunk.EhLadTelemetryExt.Run"
+}
